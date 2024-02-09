@@ -1,0 +1,134 @@
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\bin\Debug\BBMS forms.exe.config
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\bin\Debug\BBMS forms.exe
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\bin\Debug\BBMS forms.pdb
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.AssemblyReference.cache
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Properties.Resources.resources
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.GenerateResource.cache
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.CoreCompileInputs.cache
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS forms.exe
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS forms.pdb
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Donorhome.resources
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Login.resources
+C:\Users\Jayasekara\Desktop\BBMS\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.SignUp.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\bin\Debug\BBMS forms.exe.config
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\bin\Debug\BBMS forms.exe
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\bin\Debug\BBMS forms.pdb
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.AssemblyReference.cache
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Donorhome.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Login.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.SignUp.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Properties.Resources.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.GenerateResource.cache
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.CoreCompileInputs.cache
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS forms.exe
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS forms.pdb
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Doctor.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Main_Nurse.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.ManagerDashboard.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Nurse.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.PHI.resources
+C:\Users\Jayasekara\Desktop\BBMS - Copy\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.RecepientHome.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csprojAssemblyReference.cache
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Doctor.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Donorhome.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Login.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Main_Nurse.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.ManagerDashboard.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Nurse.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.PHI.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.RecepientHome.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.SignUp.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.Properties.Resources.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.GenerateResource.cache
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.CoreCompileInputs.cache
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS forms.exe
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS forms.pdb
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\bin\Debug\BBMS forms.exe.config
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\bin\Debug\BBMS forms.exe
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\bin\Debug\BBMS forms.pdb
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_signUpLevel2.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_signUpLevel4.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_signUpLevel5.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_donorList.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\bin\Debug\MySql.Data.dll
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\bin\Debug\MySql.Data.xml
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS forms.csproj.CopyComplete
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_acessoryDetails.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_acessoryRegistration.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_applyLeave.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_attendanceRegistry.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_bloodCategorizationReport.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_bloodRequest.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_bloodRequestAcceptance.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_generalHomePage.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_logHistory.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_managerMeetings.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_messages.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_newBloodGroupRegistration.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_newCampOrganization.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_newDonorRegistration.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_outsideContancts.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_packetHistory.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_packetProcessing.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_phoneRegistry.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_registerNewBloodReport.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS forms\BBMS forms\obj\Debug\BBMS_forms.frm_reminders.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS forms.csprojAssemblyReference.cache
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.Doctor.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.Donorhome.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_acessoryDetails.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_acessoryRegistration.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_applyLeave.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_attendanceRegistry.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodCategorizationReport.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodLog.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodRequest.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodRequestAcceptance.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_donorList.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_generalHomePage.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_logHistory.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_managerMeetings.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_messages.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_newBloodGroupRegistration.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_newCampOrganization.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_newDonorRegistration.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_outsideContancts.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_packetHistory.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_packetProcessing.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_phoneRegistry.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_registerNewBloodReport.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_reminders.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_signUpLevel2.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_signUpLevel4.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_signUpLevel5.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.Login.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.Main_Nurse.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.ManagerDashboard.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.Nurse.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.PHI.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.RecepientHome.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.SignUp.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.Properties.Resources.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS forms.csproj.GenerateResource.cache
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS forms.csproj.CoreCompileInputs.cache
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS forms.exe
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS forms.pdb
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_acessoryEquipmentAllocation.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_acessoryEqupmentAllocation_allocationList.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodLogContactNumberRegistration.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodLogMoreDeetails.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodrequest_acceptance.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodRequest_acceptance_moreDetails.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodStock.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_bloodStock_specifiedBloodStockDetails.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_camps.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_camps_arrangedMeetings.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_camps_meetingDateTime.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_camps_meetingRejectionOrApproval.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_camps_newCampRegistration.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_camps_newCampRegistration_meetingArrangingStep.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_camps_resonShowCase.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_detailedAcessoryDetails.resources
+D:\Demesh\NSBM\Year 02\Year 02 Semester 02\Business Proceess and ERP\2. Take Home Group Assignment\samples\BP-ERPnew\BBMS\BBMS forms\obj\Debug\BBMS_forms.frm_detailedAcessoryDetails_supplierStatistics.resources
