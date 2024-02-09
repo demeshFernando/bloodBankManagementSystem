@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2066728E-12A7-47DC-B9FF-7DCBBE4989B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BBMS_forms</RootNamespace>
+    <AssemblyName>BBMS forms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.33.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector NET 8.0.33\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor.Designer.cs">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_acessoryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_acessoryDetails.Designer.cs">
+      <DependentUpon>frm_acessoryDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_acessoryEquipmentAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_acessoryEquipmentAllocation.Designer.cs">
+      <DependentUpon>frm_acessoryEquipmentAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_acessoryEqupmentAllocation_allocationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_acessoryEqupmentAllocation_allocationList.Designer.cs">
+      <DependentUpon>frm_acessoryEqupmentAllocation_allocationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_acessoryRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_acessoryRegistration.Designer.cs">
+      <DependentUpon>frm_acessoryRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_applyLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_applyLeave.Designer.cs">
+      <DependentUpon>frm_applyLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_attendanceRegistry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_attendanceRegistry.Designer.cs">
+      <DependentUpon>frm_attendanceRegistry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodCategorizationReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodCategorizationReport.Designer.cs">
+      <DependentUpon>frm_bloodCategorizationReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodLog.Designer.cs">
+      <DependentUpon>frm_bloodLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodLogContactNumberRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodLogContactNumberRegistration.Designer.cs">
+      <DependentUpon>frm_bloodLogContactNumberRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodLogMoreDeetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodLogMoreDeetails.Designer.cs">
+      <DependentUpon>frm_bloodLogMoreDeetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodRequest.Designer.cs">
+      <DependentUpon>frm_bloodRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodRequestAcceptance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodRequestAcceptance.Designer.cs">
+      <DependentUpon>frm_bloodRequestAcceptance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodrequest_acceptance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodrequest_acceptance.Designer.cs">
+      <DependentUpon>frm_bloodrequest_acceptance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodRequest_acceptance_moreDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodRequest_acceptance_moreDetails.Designer.cs">
+      <DependentUpon>frm_bloodRequest_acceptance_moreDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodStock.Designer.cs">
+      <DependentUpon>frm_bloodStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bloodStock_specifiedBloodStockDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bloodStock_specifiedBloodStockDetails.Designer.cs">
+      <DependentUpon>frm_bloodStock_specifiedBloodStockDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_camps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_camps.Designer.cs">
+      <DependentUpon>frm_camps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_camps_arrangedMeetings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_camps_arrangedMeetings.Designer.cs">
+      <DependentUpon>frm_camps_arrangedMeetings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_camps_meetingDateTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_camps_meetingDateTime.Designer.cs">
+      <DependentUpon>frm_camps_meetingDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_camps_meetingRejectionOrApproval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_camps_meetingRejectionOrApproval.Designer.cs">
+      <DependentUpon>frm_camps_meetingRejectionOrApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_camps_newCampRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_camps_newCampRegistration.Designer.cs">
+      <DependentUpon>frm_camps_newCampRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_camps_newCampRegistration_meetingArrangingStep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_camps_newCampRegistration_meetingArrangingStep.Designer.cs">
+      <DependentUpon>frm_camps_newCampRegistration_meetingArrangingStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_camps_resonShowCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_camps_resonShowCase.Designer.cs">
+      <DependentUpon>frm_camps_resonShowCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_comparisons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_comparisons.Designer.cs">
+      <DependentUpon>frm_comparisons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_detailedAcessoryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_detailedAcessoryDetails.Designer.cs">
+      <DependentUpon>frm_detailedAcessoryDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_detailedAcessoryDetails_supplierStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_detailedAcessoryDetails_supplierStatistics.Designer.cs">
+      <DependentUpon>frm_detailedAcessoryDetails_supplierStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_detailedAcessoryDetails_usageStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_detailedAcessoryDetails_usageStatistics.Designer.cs">
+      <DependentUpon>frm_detailedAcessoryDetails_usageStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DoctorSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DoctorSettings.Designer.cs">
+      <DependentUpon>frm_DoctorSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_donorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_donorList.Designer.cs">
+      <DependentUpon>frm_donorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_equipmentRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_equipmentRegistration.Designer.cs">
+      <DependentUpon>frm_equipmentRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_generalHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_generalHomePage.Designer.cs">
+      <DependentUpon>frm_generalHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ListmismatchingAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ListmismatchingAttendance.Designer.cs">
+      <DependentUpon>frm_ListmismatchingAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_logHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_logHistory.Designer.cs">
+      <DependentUpon>frm_logHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_mainNurseSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_mainNurseSettings.Designer.cs">
+      <DependentUpon>frm_mainNurseSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_managerMeetings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_managerMeetings.Designer.cs">
+      <DependentUpon>frm_managerMeetings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_managerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_managerSettings.Designer.cs">
+      <DependentUpon>frm_managerSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_meetingArrangements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_meetingArrangements.Designer.cs">
+      <DependentUpon>frm_meetingArrangements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_messages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_messages.Designer.cs">
+      <DependentUpon>frm_messages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_newBloodGroupRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_newBloodGroupRegistration.Designer.cs">
+      <DependentUpon>frm_newBloodGroupRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_newCampOrganization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_newCampOrganization.Designer.cs">
+      <DependentUpon>frm_newCampOrganization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_newDonorRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_newDonorRegistration.Designer.cs">
+      <DependentUpon>frm_newDonorRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_newMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_newMessage.Designer.cs">
+      <DependentUpon>frm_newMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_newReminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_newReminder.Designer.cs">
+      <DependentUpon>frm_newReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_newTodoEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_newTodoEvent.Designer.cs">
+      <DependentUpon>frm_newTodoEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_nurseSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_nurseSettings.Designer.cs">
+      <DependentUpon>frm_nurseSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_outsideContancts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_outsideContancts.Designer.cs">
+      <DependentUpon>frm_outsideContancts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_packetHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_packetHistory.Designer.cs">
+      <DependentUpon>frm_packetHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_packetProcessing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_packetProcessing.Designer.cs">
+      <DependentUpon>frm_packetProcessing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_phiSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_phiSettings.Designer.cs">
+      <DependentUpon>frm_phiSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_phoneRegistry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_phoneRegistry.Designer.cs">
+      <DependentUpon>frm_phoneRegistry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_registerNewBloodReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_registerNewBloodReport.Designer.cs">
+      <DependentUpon>frm_registerNewBloodReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_reminders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_reminders.Designer.cs">
+      <DependentUpon>frm_reminders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_requestCamp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_requestCamp.Designer.cs">
+      <DependentUpon>frm_requestCamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_signLevel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_signLevel3.Designer.cs">
+      <DependentUpon>frm_signLevel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_signUpLevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_signUpLevel2.Designer.cs">
+      <DependentUpon>frm_signUpLevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_signUpLevel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_signUpLevel4.Designer.cs">
+      <DependentUpon>frm_signUpLevel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_signUpLevel5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_signUpLevel5.Designer.cs">
+      <DependentUpon>frm_signUpLevel5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_specificStaffAttendanceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_specificStaffAttendanceDetails.Designer.cs">
+      <DependentUpon>frm_specificStaffAttendanceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_staffAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_staffAllocation.Designer.cs">
+      <DependentUpon>frm_staffAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_staffListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_staffListView.Designer.cs">
+      <DependentUpon>frm_staffListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_timeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_timeTable.Designer.cs">
+      <DependentUpon>frm_timeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_todoList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_todoList.Designer.cs">
+      <DependentUpon>frm_todoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Nurse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Nurse.Designer.cs">
+      <DependentUpon>Main Nurse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerDashboard.Designer.cs">
+      <DependentUpon>ManagerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nurse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nurse.Designer.cs">
+      <DependentUpon>Nurse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="packages\acessoryDetails.cs" />
+    <Compile Include="packages\attendanceRegistry.cs" />
+    <Compile Include="packages\bloodCamps.cs" />
+    <Compile Include="packages\bloodGroups.cs" />
+    <Compile Include="packages\bloodLog.cs" />
+    <Compile Include="packages\bloodRequest.cs" />
+    <Compile Include="packages\databases.cs" />
+    <Compile Include="packages\dbDonorPhoneNumbers.cs" />
+    <Compile Include="packages\dbdonorStatus.cs" />
+    <Compile Include="packages\DBManipulation.cs" />
+    <Compile Include="packages\dbDonors.cs" />
+    <Compile Include="packages\diseaseList.cs" />
+    <Compile Include="packages\donorDiseaceRates.cs" />
+    <Compile Include="packages\donorRelativeDetails.cs" />
+    <Compile Include="packages\generalProcesses.cs" />
+    <Compile Include="packages\leaveApplication.cs" />
+    <Compile Include="packages\logBook.cs" />
+    <Compile Include="packages\medicineDetails.cs" />
+    <Compile Include="packages\meetings.cs" />
+    <Compile Include="packages\messages.cs" />
+    <Compile Include="packages\outsideContacts.cs" />
+    <Compile Include="packages\outSideNumbers.cs" />
+    <Compile Include="packages\prescribedMedicine.cs" />
+    <Compile Include="packages\reminders.cs" />
+    <Compile Include="packages\staffContactDetails.cs" />
+    <Compile Include="packages\staffCredentials.cs" />
+    <Compile Include="packages\staffEducationalQualification.cs" />
+    <Compile Include="packages\staffList.cs" />
+    <Compile Include="PHI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHI.Designer.cs">
+      <DependentUpon>PHI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepientHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecepientHome.Designer.cs">
+      <DependentUpon>RecepientHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donorhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donorhome.Designer.cs">
+      <DependentUpon>Donorhome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Doctor.resx">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donorhome.resx">
+      <DependentUpon>Donorhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_acessoryDetails.resx">
+      <DependentUpon>frm_acessoryDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_acessoryEquipmentAllocation.resx">
+      <DependentUpon>frm_acessoryEquipmentAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_acessoryEqupmentAllocation_allocationList.resx">
+      <DependentUpon>frm_acessoryEqupmentAllocation_allocationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_acessoryRegistration.resx">
+      <DependentUpon>frm_acessoryRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_applyLeave.resx">
+      <DependentUpon>frm_applyLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_attendanceRegistry.resx">
+      <DependentUpon>frm_attendanceRegistry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodCategorizationReport.resx">
+      <DependentUpon>frm_bloodCategorizationReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodLog.resx">
+      <DependentUpon>frm_bloodLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodLogContactNumberRegistration.resx">
+      <DependentUpon>frm_bloodLogContactNumberRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodLogMoreDeetails.resx">
+      <DependentUpon>frm_bloodLogMoreDeetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodRequest.resx">
+      <DependentUpon>frm_bloodRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodRequestAcceptance.resx">
+      <DependentUpon>frm_bloodRequestAcceptance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodrequest_acceptance.resx">
+      <DependentUpon>frm_bloodrequest_acceptance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodRequest_acceptance_moreDetails.resx">
+      <DependentUpon>frm_bloodRequest_acceptance_moreDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodStock.resx">
+      <DependentUpon>frm_bloodStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bloodStock_specifiedBloodStockDetails.resx">
+      <DependentUpon>frm_bloodStock_specifiedBloodStockDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_camps.resx">
+      <DependentUpon>frm_camps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_camps_arrangedMeetings.resx">
+      <DependentUpon>frm_camps_arrangedMeetings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_camps_meetingDateTime.resx">
+      <DependentUpon>frm_camps_meetingDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_camps_meetingRejectionOrApproval.resx">
+      <DependentUpon>frm_camps_meetingRejectionOrApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_camps_newCampRegistration.resx">
+      <DependentUpon>frm_camps_newCampRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_camps_newCampRegistration_meetingArrangingStep.resx">
+      <DependentUpon>frm_camps_newCampRegistration_meetingArrangingStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_camps_resonShowCase.resx">
+      <DependentUpon>frm_camps_resonShowCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_detailedAcessoryDetails.resx">
+      <DependentUpon>frm_detailedAcessoryDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_detailedAcessoryDetails_supplierStatistics.resx">
+      <DependentUpon>frm_detailedAcessoryDetails_supplierStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_donorList.resx">
+      <DependentUpon>frm_donorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_generalHomePage.resx">
+      <DependentUpon>frm_generalHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_logHistory.resx">
+      <DependentUpon>frm_logHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_managerMeetings.resx">
+      <DependentUpon>frm_managerMeetings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_messages.resx">
+      <DependentUpon>frm_messages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_newBloodGroupRegistration.resx">
+      <DependentUpon>frm_newBloodGroupRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_newCampOrganization.resx">
+      <DependentUpon>frm_newCampOrganization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_newDonorRegistration.resx">
+      <DependentUpon>frm_newDonorRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_outsideContancts.resx">
+      <DependentUpon>frm_outsideContancts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_packetHistory.resx">
+      <DependentUpon>frm_packetHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_packetProcessing.resx">
+      <DependentUpon>frm_packetProcessing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_phoneRegistry.resx">
+      <DependentUpon>frm_phoneRegistry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_registerNewBloodReport.resx">
+      <DependentUpon>frm_registerNewBloodReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_reminders.resx">
+      <DependentUpon>frm_reminders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_signUpLevel2.resx">
+      <DependentUpon>frm_signUpLevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_signUpLevel4.resx">
+      <DependentUpon>frm_signUpLevel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_signUpLevel5.resx">
+      <DependentUpon>frm_signUpLevel5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Nurse.resx">
+      <DependentUpon>Main Nurse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerDashboard.resx">
+      <DependentUpon>ManagerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nurse.resx">
+      <DependentUpon>Nurse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHI.resx">
+      <DependentUpon>PHI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepientHome.resx">
+      <DependentUpon>RecepientHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13-08-2021_12-18-23_Blog_Cover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="collections\Staff_Proofs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
