@@ -1,0 +1,452 @@
+=MySql database
+
+database name: BBMS_Repository
+CREATE DATABASE BBMS_Repository;
+USE BBMS_Repository;
+
+tables and fileds, 
+
+donors
+NIC - <int> - <primary key> | firstName - <varchar(15)> | lastName - <varchar(15)> | otherName <varchar(15)> | line1 - <varchar(15)> | line2 - <varchar(15)> | line3 - <varchar(15)> | city - <varchar(15)> | homeLand - <varchar(20)> | gender - <varchar(7) | email - <varchar(100)> | beginDay <int> | beginMonth <int> | beginYear <int> | bloodGroup <varchar(15)> | cardStatus <varchar(10)> | editedBy <int> |
+CREATE TABLE donors (
+  NIC INT PRIMARY KEY,
+  firstName VARCHAR(15),
+  lastName VARCHAR(15),
+  otherName VARCHAR(15),
+  line1 VARCHAR(15),
+  line2 VARCHAR(15),
+  line3 VARCHAR(15),
+  city VARCHAR(15),
+  homeLand VARCHAR(20),
+  gender VARCHAR(7),
+  email VARCHAR(100),
+  beginDay INT,
+  beginMonth INT,
+  beginYear INT,
+  bloodGroup VARCHAR(15)
+);
+
+donorPhoneNumbers
+phoneNumber <int> <primary key> | NIC <int> <foreign key>
+CREATE TABLE donorPhoneNumbers (
+  phoneNumber INT PRIMARY KEY,
+  NIC INT,
+  FOREIGN KEY (NIC) REFERENCES donors(NIC)
+);
+
+donorStatus
+NIC <int> <primary key> | status <varchar(10) | description <varchar(100)> | lastDonationDay <int> | lastDonationMonth <int> | lastDonationYear <int> | beginDay <int> | beginMonth <int> | beginYear <int> | regby <int> | lastEditedBy <varchar(10)>
+CREATE TABLE donorStatus (
+  NIC VARCHAR(100) PRIMARY KEY,
+  status VARCHAR(10),
+  description VARCHAR(100),
+  lastDonationDay INT,
+  lastDonationMonth INT,
+  lastDonationYear INT,
+  beginDay INT,
+  beginMonth INT,
+  beginYear INT, 
+  regby INT, 
+  lastEditedBy VARCHAR(10)
+);
+
+donorDiseaceRates
+diseaceID <int> <autonumber> | NIC <int> | currentStatus <varchar(20)> | beginDay <int> | beginMonth <int> | beginYear <int> | endDay <int> | endMonth<int> | endYear <int>
+CREATE TABLE donorDiseaceRates (
+  diseaceID INT,
+  NIC INT,
+  currentStatus VARCHAR(20),
+  beginDay INT,
+  beginMonth INT,
+  beginYear INT,
+  endDay INT,
+  endMonth INT,
+  endYear INT
+);
+
+donorRelativeDetails
+relativeName <varchar(20)> | NIC <int> | phoneNumber <int>
+CREATE TABLE donorRelativeDetails (
+  relativeName VARCHAR(20),
+  NIC INT,
+  phoneNumber INT
+);
+
+bloodGroups
+bloodID <int> <primary key> | bloodName <varchar(100)> | description <varchar(200)> | beginDay <int> | beginMonth <int> | beginYear <int> | availableContities <int> | measurement <varchar(10)> | regBy <varchar(100)
+CREATE TABLE bloodGroups (
+  bloodID INT PRIMARY KEY,
+  bloodName VARCHAR(100),
+  description VARCHAR(200),
+  beginDay INT,
+  beginMonth INT,
+  beginYear INT, 
+  regBy varchar(100),
+  quantity varchar(100)
+);
+
+diseaseList
+diseaceID <int> <primary key> | diseaceName <varchar(100)> | description <varchar(200)> | registeredDay <int> | registeredMonth <int> | registeredYear <int>
+CREATE TABLE diseaseList (
+  diseaceID INT PRIMARY KEY,
+  diseaceName VARCHAR(100),
+  description VARCHAR(200),
+  registeredDay INT,
+  registeredMonth INT,
+  registeredYear INT
+);
+
+medicineDetails
+ID <int> <primary key> | name <varchar(100)> | description <varchar(100)> | regDay <int> | regMonth <int> | regYear <int>
+CREATE TABLE medicineDetails (
+  ID INT PRIMARY KEY,
+  name VARCHAR(100),
+  description VARCHAR(100),
+  regDay INT,
+  regMonth INT,
+  regYear INT
+);
+
+prescribedMedicine
+medicineID <int> | NIC <int> | description <varchar(100)> | regDay <int> | regMonth <int> | regyear <int>
+CREATE TABLE prescribedMedicine (
+  medicineID INT,
+  NIC INT,
+  description VARCHAR(100),
+  regDay INT,
+  regMonth INT,
+  regyear INT
+);
+
+staffList
+NIC <int> <primary key> | firstName - <varchar(15)> | lastName - <varchar(15)> | otherName <varchar(15)> | line1 - <varchar(15)> | line2 - <varchar(15)> |line3 - <varchar(15)> | city - <varchar(15)> | homeLand - <varchar(20)> | gender - <varchar(7) | email - <varchar(100)> | beginDay <int> | beginMonth <int> | beginYear <int> | position <varchar(50)> | employeeLevel <varchar(10)> | applicableLeaves <int> | accountActivation <varchar(10)>
+CREATE TABLE staffList (
+  ID INT PRIMARY KEY,
+  NIC INT,
+  firstName VARCHAR(15),
+  lastName VARCHAR(15),
+  otherName VARCHAR(15),
+  line1 VARCHAR(15),
+  line2 VARCHAR(15),
+  line3 VARCHAR(15),
+  city VARCHAR(15),
+  homeLand VARCHAR(20),
+  gender VARCHAR(7),
+  email VARCHAR(100),
+  beginDay INT,
+  beginMonth INT,
+  beginYear INT,
+  position VARCHAR(50),
+  employeeLevel VARCHAR(10),
+  applicableLeaves INT,
+  accountActivation VARCHAR(10)
+);
+
+staffPosition
+  ID int primary key, 
+  position varchar(100),
+
+staffCredentials
+username <varchar(100)> <primary key> | password <varchar(100)> | NIC <int> <foreign key> |
+CREATE TABLE staffCredentials (
+  username VARCHAR(100) PRIMARY KEY,
+  password VARCHAR(100),
+  nic int
+);
+
+staffContactDetails
+phoneNumber <int> <primary key> | nic <int>
+CREATE TABLE staffContactDetails (
+  phoneNumber INT PRIMARY KEY,
+  nic INT
+);
+
+staffEducationalQualification
+nic <int> <primary key> | studies <varchar(100)> | institute <varchar(100)> | beginYear <int> | endYear <int> | lastExperiancePostition <varchar(100)> | businessFirm <varchar(50)> | experiance <int> | counting <varchar(10)> | birthCertificateLink <varchar(100)> | degreeCertificateLink <varchar(100)> | nicFrontLink <varchar(100)> | nicBackLink <varchar(100)>
+CREATE TABLE staffContactDetails (
+  nic INT PRIMARY KEY,
+  studies VARCHAR(100),
+  institute VARCHAR(100),
+  beginYear INT,
+  endYear INT,
+  lastExperiancePostition VARCHAR(100),
+  businessFirm VARCHAR(50),
+  experiance INT,
+  counting VARCHAR(10),
+  birthCertificateLink VARCHAR(100),
+  degreeCertificateLink VARCHAR(100),
+  nicFrontLink VARCHAR(100),
+  nicBackLink VARCHAR(100)
+);
+
+messages
+ID <int> <primary key> | message <varchar(400)> | to <int> | from <int> | status <varchar(10)> "read", "unread" | sentDay <int> | sentMonth <int> | sentYear <int> | sentHour <int> | sentMinute <int> | recievedDay <int> | recievedMonth <int> | recievedDay <int> | recievedHour <int> | recievedMinute <int> | replyID <int>
+CREATE TABLE messages (
+  ID varchar(100) PRIMARY KEY,
+  message VARCHAR(400),
+  sendingTo INT,
+  recievedFrom INT,
+  status VARCHAR(10),
+  sentDay INT,
+  sentMonth INT,
+  sentYear INT,
+  sentHour INT,
+  sentMinute INT,
+  recievedDay INT,
+  recievedMonth INT,
+  recievedYear INT,
+  recievedHour INT,
+  recievedMinute INT,
+  replyID INT
+);
+
+logBook
+id <int> <primary key> | staffID <int> <foreign key> | description <varchar(40)> | createdDay <int> | createdMonth <int> | createdYear <int> | createdHour <int> | createdMinute <int> | period <varchar(4)>
+CREATE TABLE logBook (
+  id INT PRIMARY KEY,
+  staffID INT,
+  description VARCHAR(40),
+  createdDay INT,
+  createdMonth INT,
+  createdYear INT,
+  createdHour INT,
+  createdMinute INT,
+  FOREIGN KEY (staffID) REFERENCES staffList(ID)
+);
+
+attendanceRegistry
+ID <int> <primary key> | NIC <int> | day <int> | month <int> | year <int> | hour <int> | minute <int> | regDay <int> | regMonth <int> | regYear <int>
+CREATE TABLE attendanceRegistry (
+  ID INT PRIMARY KEY,
+  NIC INT,
+  day INT,
+  month INT,
+  year INT,
+  hour INT,
+  minute INT,
+  regDay INT,
+  regMonth INT,
+  regYear INT
+);
+
+bloodCamps
+id <int> <primary key> | reqName <varchar(40)> | heading <varchar(50)> | description <varchar(50)> | expectedDonors <int> | regDay <int> | regMonth <int> | regYear <int> | regHour <int> | regMinute <int> | expectingDay <int> | expectingMonth <int> | expectingYear <int> | expectingHour<int> | expectingMinute<int> | meetingArrangement <varchar(20) | approvalStatus <varchar(10)> 
+CREATE TABLE bloodCamps (
+  ID INT PRIMARY KEY,
+  reqName VARCHAR(40),
+  heading VARCHAR(40),
+  description VARCHAR(50),
+  expectedDonors INT,
+  regDay INT,
+  regMonth INT,
+  regYear INT,
+  regHour INT,
+  regMinute INT,
+  expectingDay INT,
+  expectingMonth INT,
+  expectingYear INT,
+  expectingHour INT
+);
+
+leaveApplication
+id <int> <primary key> | userID <int> <foreign key> | Reason <varchar(50)> | regDay <int> | regMonth <int> | regyear <int> | wantedDay <int> | wantedMonth <int> | wantedYear <int> | leaveType <varchar(10)> | dayOfPeriod <varchar(10)> | approveStatus <varchar(10)> "approved", "notapproved" | approvedBy <varchar(10) 
+CREATE TABLE leaveApplication (
+  ID INT PRIMARY KEY,
+  userID INT,
+  Reason VARCHAR(50),
+  regDay INT,
+  regMonth INT,
+  regyear INT,
+  wantedDay INT,
+  wantedMonth INT,
+  wantedYear INT,
+  leaveType VARCHAR(10),
+  dayOfPeriod VARCHAR(10), 
+  approveStatus varchar(10),
+  approvedBy varchar(10),
+  FOREIGN KEY (userID) REFERENCES staffList(ID)
+);
+
+meetings
+id <int> <primary key> | regBy <int> | managerAcceptance <int> | PHIAcceptance <int> | nurseAcceptance <int> | doctorAcceptance <int> | heldingDay <int> | heldingMonth <int> | heldingYear <int> | heldingHour <int> | heldingMinute <int> | reqDay <int> | reqMonth <int> | reqYear <int> | reqHour <int> | reqMinute <int> | reason <varchar(50)> | nurseApproval <varchar(10)> | PHIApproval <varchar(10)> | doctorApproval <varchar(10)> | managerApproval <varchar(10)> | campID <int> | createDay <varchar(100)> | createdMonth <varchar(100)> | createdYear <varchar(100)> | createdHour <varchar(100)> | createMinute <varchar(100)>
+
+CREATE TABLE meetings (
+  ID INT PRIMARY KEY,
+  regBy INT,
+  managerAcceptance INT,
+  managerRejectionReason varchar(100),
+  PHIAcceptance INT,
+  PHIRejectionReason varchar(100), 
+  nurseAcceptance INT,
+  nurseRejectionReason varchar(100),
+  doctorAcceptance INT,
+  doctorRejectionReason varchar(100),
+  heldingDay INT,
+  heldingMonth INT,
+  heldingYear INT,
+  heldingHour INT, 
+  heldingMinute INT,
+  reason VARCHAR(10),
+  nurseApproval VARCHAR(10),
+  nurseCampRejectionReason varchar(100),
+  PHIApproval VARCHAR(10),
+  PHICampRejectionReason varchar(100),
+  doctorApproval VARCHAR(10),
+  doctorCampRejectionReason varchar(100),
+  managerApproval VARCHAR(10),
+  managerCampRejectionReason varchar(100),
+  campID INT, 
+  createdDay varchar(100), 
+  createdMonth varchar(100), 
+  createdYear varchar(100), 
+  createdHour varchar(100), 
+  createdMinute varchar(100)
+);
+ 
+reminders
+id <int> <primary key> | nic <varchar(100) | heading <varchar(10)> | description <varchar(50)> | regDay <int> | regMonth <int> | regYear <int> | regHour <int> | regMinute <int> | remDay <int> | remMonth <int> | remYear <int> | remHour <int> | remMinute <int> | seenDay <varchar(100)> | seenMonth <varchar(100)> | seenYear <varchar(100)> | seenHour <varchar(100)> | seenMinute <varchar(100)> | priorityLevel <int> "1", "2", "3"| seenStatus <varchar(10)>  addedBy <int>
+CREATE TABLE reminders (
+  ID varchar(100) PRIMARY KEY,
+  nic varchar(100),
+  heading VARCHAR(10),
+  description VARCHAR(50),
+  regDay INT,
+  regMonth INT,
+  regYear INT,
+  regHour INT,
+  regminute varchar(20),
+  remDay varchar(100),
+  remMonth INT,
+  remYear INT,
+  remHour INT,
+  remMinute INT,
+  seenDay varchar(100), 
+  seenMonth varchar(100), 
+  seenYear varchar(100), 
+  seenHour varchar(100), 
+  seenMinute varhcar(100), 
+  priorityLevel INT,
+  seenStatus VARCHAR(50),
+);
+
+outsideContacts
+id <int> <primary key> | NIC <int> | name <varchar(100)> | reason <varchar(10)> | company <varchar(10)> | regDay <varchar(10)> | regMonth <varchar(10)> | regYear varchar(10) | line1 <varchar(10)> | line2 <varchar(10)> | line3 <varchar(10)> | city <varchar(10)> | homeLand <varchar(10)> |
+CREATE TABLE outsideContacts (
+  ID INT PRIMARY KEY,
+  NIC INT,
+  name VARCHAR(100),
+  reason VARCHAR(10),
+  company VARCHAR(10),
+  regDay varchar(10), 
+  regmonth varchar(10), 
+  regYear varchar(10),
+  line1 VARCHAR(10),
+  line2 VARCHAR(10),
+  line3 VARCHAR(10),
+  city VARCHAR(10),
+  homeLand VARCHAR(50)
+);
+
+outSideNumbers
+phoneNumber <int> <primary key> | NIC <int> | status <varchar(10)>
+CREATE TABLE outSideNumbers (
+  phoneNumber INT PRIMARY KEY,
+  NIC INT,
+  status VARCHAR(10)
+);
+
+bloodRequest
+id <int> <primary key> | name <varchar(10)> | reqBy <varchar(10)> | reqBloodType <varchar(100)> | reqDay <int> | reqMonth <int> | reqYear <Int> | quantity <varchar(100)> | wantDay <int> | wantMonth <int> | wantYear <int> | reason <varchar(50)> | status <varchar(10)> "0" = pending, "1" - approved, "2" = canceled| sendingDay varchar(10) | sendingMonth varchar(10) | sendingYear varchar(10) | statusUpdatedBy <int> | decReason <varchar(10)>
+CREATE TABLE bloodRequest (
+  ID INT PRIMARY KEY,
+  name VARCHAR(10),
+  reqBy VARCHAR(10),
+  reqBloodType varchar(100),
+  reqDay INT,
+  reqMonth INT,
+  reqYear INT,
+  quantity varchar(100),
+  wantDay INT,
+  wantMonth INT,
+  wantYear INT,
+  reason VARCHAR(10),
+  status VARCHAR(10),
+  sendingDay varchar(10), 
+  sendingMonth varchar(10), 
+  sendingyear varchar(10),
+  statusUpdatedBy INT,
+  decReason VARCHAR(10)
+);
+
+acessoryDetails
+id <int> <primary key> | name <varchar(50)> "packet", "injection", "papers" | contitiy <int> | description <varchar(50)> | regby <int> <foreign key> | regDay <int> | regMonth <int> | regYear <int> | expDay <int> | expMonth <int> | expYear <int> 
+CREATE TABLE acessoryDetails(
+  ID INT PRIMARY KEY,
+  name VARCHAR(50),
+  contitiy INT,
+  description VARCHAR(10),
+  regby INT,
+  regDay INT,
+  regMonth INT,
+  regyear varchar(10),
+  expDay INT,
+  expMonth INT,
+  expYear INT,
+  FOREIGN KEY (sellerID) REFERENCES outsideContacts(ID),
+  FOREIGN KEY (regby) REFERENCES staffList(ID)
+);
+
+bloodLog
+id <int> <primary key> | name <varchar(10)> | bloodType <varchar(100)> | regDay <int> | regMonth <int> | regYear <int> | regHour <int> | regMinute <int> | regBy <int> | packetOwner <int> | donDay <int> | donMonth <int> | donYear <int> | donHour <int> | donMinute <int> | campID <int> | takenBy <int> | packetID <int> <foreign key> | status <varchar(10)> | resDay <int> | resMonth <int> | resYear <int>
+CREATE TABLE bloodLog (
+  ID INT PRIMARY KEY,
+  name VARCHAR(10),
+  bloodType varchar(100),
+  regDay INT,
+  regMonth INT,
+  regYear INT,
+  regHour INT,
+  regMinute INT,
+  regBy INT,
+  packetOwner INT,
+  donDay INT,
+  donMonth INT,
+  donYear INT,
+  donHour INT,
+  donMinute INT,
+  contity varchar(100),
+  campID INT,
+  takenBy INT,
+  packetID INT,
+  city VARCHAR(10),
+  resDay INT,
+  resMonth INT,
+  resYear INT,
+  FOREIGN KEY (packetID) REFERENCES acessoryDetails(ID)
+);
+
+timetable
+id <varchar(100)> | nic <varchar(50)> | heading <varchar(100) | event <varhcar(500)> | regday <varchar(50)> | regmonth varchar(50)> | regyear <varchar(50)> | regminute <varchar(50) | reghour <varchar(50)> | regtimeperiod <varchar(10)> | alertday <varchar(100)> | alertmonth <varchar(50)> | alertyear <varchar(50)> | alerthour <varchar(50)> | alertminute <varchar(50)> | alerttimeperiod <varchar(40)> | seenstatus <varchar(50)> "notseen" | "seen"
+create table timetable{
+  id varchar(100), 
+  nic varchar(100), 
+  heading varchar(100), 
+  event varchar(500), 
+  regday varchar(50), 
+  regmonth varchar(50), 
+  regyear varchar(50), 
+  reghour varchar(50), 
+  regminute varchar(50), 
+  alertday varchar(50), 
+  alertmonth varchar(50), 
+  alertyear varchar(50), 
+  alertminute varchar(50), 
+  alerthour varchar(50), 
+  seenstatus varhcar(50)
+};
+
+acessoryReservation
+id <varchar(10)> | acessoryId <varchar(10)> | description | resrvedDay | reservedMonth | reservedYear | reservedMinute | reservedHour | wantDay | wantMonth | wantYear | wantMinute | wantHour | resrvedBy | reason | quantity
+
+acessorySellersDetails
+id <varchar(10)> | sellerId varchar(100) | acessoryId varchar(100) | rate varchar(100)
